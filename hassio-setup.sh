@@ -35,14 +35,14 @@ docker-compose up -d
 cd $currentDir
 mkdir network-manager-deb
 cd network-manager-deb
-wget http://ftp.br.debian.org/debian/pool/main/n/nettle/libnettle6_3.4.1-1_arm64.deb
-sudo dpkg -i libnettle6_3.4.1-1_arm64.deb
+wget http://ftp.br.debian.org/debian/pool/main/n/nettle/libnettle6_3.4.1-1+deb10u1_arm64.deb
+sudo dpkg -i libnettle6_3.4.1-1+deb10u1_arm64.deb
 wget http://ftp.br.debian.org/debian/pool/main/p/p11-kit/libp11-kit0_0.23.15-2+deb10u1_arm64.deb
 sudo dpkg -i libp11-kit0_0.23.15-2+deb10u1_arm64.deb
-wget http://ftp.br.debian.org/debian/pool/main/n/nettle/libhogweed4_3.4.1-1_arm64.deb
-sudo dpkg -i libhogweed4_3.4.1-1_arm64.deb
-wget http://ftp.br.debian.org/debian/pool/main/g/gnutls28/libgnutls30_3.6.7-4+deb10u6_arm64.deb
-sudo dpkg -i libgnutls30_3.6.7-4+deb10u6_arm64.deb
+wget http://ftp.br.debian.org/debian/pool/main/n/nettle/libhogweed4_3.4.1-1+deb10u1_arm64.deb
+sudo dpkg -i libhogweed4_3.4.1-1+deb10u1_arm64.deb
+wget http://ftp.br.debian.org/debian/pool/main/g/gnutls28/libgnutls30_3.6.7-4+deb10u7_arm64.deb
+sudo dpkg -i libgnutls30_3.6.7-4+deb10u7_arm64.deb
 wget http://ftp.br.debian.org/debian/pool/main/n/network-manager/libnm0_1.14.6-2+deb10u1_arm64.deb
 sudo dpkg -i libnm0_1.14.6-2+deb10u1_arm64.deb
 wget http://ftp.br.debian.org/debian/pool/main/i/init-system-helpers/init-system-helpers_1.56+nmu1_all.deb
